@@ -24,6 +24,7 @@ const userSchema = new Schema(
       getters: true,
       virtuals: true,
     },
+    versionKey: false
   }
 );
 
